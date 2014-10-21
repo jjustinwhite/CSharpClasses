@@ -1,0 +1,46 @@
+﻿body {
+    /* Body font */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.75;
+
+    /* responsive background image */
+    background: url(http://i.imgur.com/knJSIXJ.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+div#mainBody {
+    /* Center content horizontal and vertical*/
+    width: 800px;
+    height: 600px;
+    padding: 15px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    /* set background color, round borders, and slight transparency */
+    background: rgba(181,198,203,0.85);
+    -webkit-transform: translate3d(0, 0, 0);
+    border: 4px;
+    border-radius: 4px;
+}
+
+
+h1, h3 {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
